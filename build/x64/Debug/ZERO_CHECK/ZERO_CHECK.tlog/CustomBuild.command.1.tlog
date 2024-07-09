@@ -1,0 +1,10 @@
+^E:\C++ PROJECT3\OPENGL\OPENGL_1ST_PROJECT\BUILD\CMAKEFILES\9F762473F01017911AE15F17D2BDEE92\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SE:/C++ project3/OpenGL/OpenGL_1st_project" "-BE:/C++ project3/OpenGL/OpenGL_1st_project/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "E:/C++ project3/OpenGL/OpenGL_1st_project/build/hello_world.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
