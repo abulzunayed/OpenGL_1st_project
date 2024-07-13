@@ -4,12 +4,6 @@ This project covers the following topics:
 -- Vertex.
 -- Textures.
 -- Transformations.
--- Design patterns.
--- Loading Models.
--- Animation models.
--- Static Geometry.
--- Cubemaps.
--- Compute Shaders.
 # Transformation image:
 
 
